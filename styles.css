@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(240, 118, 118);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar-nav li a{
+    color: blue;
+}
+.navbar-nav li a:hover{
+    color: rgb(221, 28, 28);
+}
+.bg-brown {
+    background-color:blanchedalmond;
+}
+.background-div{
+    background-color: rgb(238, 84, 84);
+    background-image: url(images/AdobeStock_826469044_Preview-removebg-preview.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100vw;
+    height:300px;
+}
+.text-content{
+    position: absolute;
+    top:  50%;
+    right: 5%;
+    transform: translateY(-50%);
+    max-width: 40%;
+}
+
+.info-section {
+    background-color: blanchedalmond;
+}
+.info-section h3{
+    font-size: 24px ;
+}
+.info-section p{
+    font-size: 16px;
+}
+
